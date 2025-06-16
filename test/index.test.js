@@ -12,6 +12,7 @@ const {
 describe('DOM Testing and User Behavior Simulation', () => {
   beforeEach(() => {
     document.body.innerHTML = `
+      <button id="simulate-click">Simulate Click</button>
       <div id="dynamic-content"></div>
       <div id="error-message" class="hidden"></div>
       <form id="user-form">
